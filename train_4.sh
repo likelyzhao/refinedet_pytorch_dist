@@ -1,0 +1,1 @@
+envpy3/bin/python train_dist.py --save_folder ./dist2 --cfg configs/refine_res101_voc_dist.yaml --dist-url tcp://192.168.11.26:23456 --ngpu 4 --world-size 1 --rank 0 --multiprocessing-distributed --workers 16

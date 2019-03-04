@@ -1,0 +1,1 @@
+envpy3/bin/python train_dist.py --resume_net weights/refine_res_epoch_250_300.pth --save_folder ./dist --cfg configs/refine_res101_voc.yaml --dist-url tcp://192.168.16.38:23456 --ngpu 4 --world-size 1 --rank 0 --multiprocessing-distributed --workers 4
